@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+
+    <!--<style>
+        body {background-color: powderblue;}
+        </style>-->
+  </head>
+  <body>
+    <div class="outerContainer" style: height="50px" weight="30px">
+      <h1 class="firstDine">dine</h1>
+      <div class="containerOne">
+        <h1 class="resv" style="color: white; font-size:3em;">Reservations</h1>
+        <p id="para">
+          We can't wait to host you. if you have any<br />
+          special requirements pls feel free to call on<br />
+          the phone number bellow. We'll be happy to<br />
+          accomodate you
+        </p>
+        <img src="pattern-lines.svg" alt=""id="line">
+        <!--<img src= "starter-code/utils/patterns/pattern-curve-top-right.svg" alt="" id= "top-right">
+        <img src= "starter-code/utils/patterns/pattern-curve-top-left.svg" alt="" id= "top-left">-->
+        <img src= "pattern-curve-bottom-right.svg" alt="" id= "bottom-right">
+      </div>
+      </div>
+      
+      <form class="containerTwo">
+        <input type="text" name="name" id="name" placeholder="Name" size="44" height="400px" required /><br>
+        <input type="email" name="email" id="email" placeholder="Email" size="44" width="400px" required />
+        
+        <div id="miniContainer">
+            <h4>Pick a date</h4>
+        <div id="date">
+            <input type="text" name="month" id="month" placeholder="MM" size="10"  required /><br>
+            <input type="text" name="day" id="day" placeholder="DD" size="10" required /><br>
+            <input type="text" name="year" id="year" placeholder="YYYY" size="10" required /><br>
+
+        </div>
+        <h4>Pick a time</h4>
+        <div id="time">
+            <input type="text" name="hour" id="hour" placeholder="09"size="10" required /><br>
+            <input type="text" name="minuite" id="minuite" placeholder="00" size="10" required /><br>
+            <input type="text" name="am" id="am" placeholder="AM" size="10" required /><br>
+            <img src="icon-arrow.svg" alt="" id="arrow" width="15" height="10">
+        </div>
+       </div>
+
+       <div id="people">
+        <img src="icon-minus.svg" alt="">
+       <h4>4 people</h4>
+       <img src="icon-plus.svg" alt="">
+    </div>
+       <hr style="height:1px;width:340px;color:gray;background-color:gray">
+
+       <div class="rect" style="width:350px;height:30px;border:1px solid #000; background-color: black; color: blanchedalmond; text-align: center;">MAKE RESERVATION</div>
+      </form>
+       
+
+      <footer class="footer">
+        <div id="textOne">
+          <h1 style="height: 100%; font-weight: 100%;">dine</h1>
+        </div>
+
+        <div id="textTwo">
+          <h3>
+            MARTHWAITE. SEDBERGH</h3>
+           <h3> CUMBRIA</h3>
+           <h3> +00 44 123 4567</h3>
+          
+        </div>
+
+        <div id="textThree">
+          <h3>
+            OPEN TIMES</h3>
+           <h3> MON - FRI: 09:00 AM - 10:00 PM</h3>
+           <h3> SAT - SUN: 09:00 AM - 11:30 PM </h3>
+        </div>
+      </footer>
+       
+  </body>
+</html>

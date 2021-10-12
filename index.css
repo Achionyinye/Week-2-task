@@ -1,0 +1,190 @@
+body {
+  background-color: white;
+  margin: 0;
+  height: 100%;
+}
+.outerContainer {
+  background-image: url(hero-bg-desktop.jpg);
+  width: 1358px;
+  height: 400px;
+  border: 2px solid;
+  display: flex;
+}
+.firstDine {
+  padding-left: 10%;
+}
+.resv {
+  padding-top: 8%;
+  padding-left: -10%;
+}
+#line {
+  margin-top: 250px;
+  margin-left: 400px;
+}
+#bottom-right {
+  margin-top: -240px;
+  margin-left: -346px;
+}
+#arrow {
+  margin-left: -20%;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+.containerOne {
+  padding: 20px 0px 30px 150px;
+}
+.containerTwo {
+  background-color: white;
+  margin: 100px 50px 0px 330px;
+  padding: 50px 30px 50px 40px;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+input {
+  border-left-style: hidden;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  color: whitesmoke;
+  border-bottom-color: rgb(189, 186, 186);
+}
+input #make {
+  background-color: black;
+  color: white;
+}
+/*#miniContainer{
+    display: flex;
+}*/
+#date {
+  display: flex;
+  gap: 8px;
+}
+#time {
+  display: flex;
+  gap: 8px;
+}
+#people {
+  display: flex;
+  justify-content: space-around;
+}
+.rect {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: -250px;
+  width: 101%;
+  height: 200px; /* Height of the footer */
+  background: black;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#textOne {
+  font-weight: 100%;
+  padding: 40px;
+  text-align: center;
+}
+#textTwo {
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+}
+#textThree {
+  flex-direction: column;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+@media screen and (max-width: 375px) {
+  body {
+    background-color: white;
+    margin: 0;
+    height: 100%;
+    width: auto;
+    padding-left: -5%;
+  }
+
+  .outerContainer {
+    background-image: url(hero-bg-desktop.jpg);
+    width: 358px;
+    height: 900px;
+  }
+
+  .containerTwo {
+    background-color: white;
+    margin: 550px 10px 50px 10px;
+    padding: 50px 30px 50px 40px;
+    width: 70%;
+    top: 0%;
+    left: 5%;
+  }
+  .footer {
+    display: grid;
+    position: absolute;
+    bottom: -250px;
+    width: 400px;
+    height: 200px; /* Height of the footer */
+    background: black;
+    margin: 0 auto;
+  }
+  #textOne {
+    height: 100%;
+    font-weight: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .outerContainer {
+    background-image: url(hero-bg-desktop.jpg);
+    width: 1300px;
+    height: 600px;
+  }
+  .firstDine {
+    margin-top: -35%;
+    margin-left: 4%;
+    padding-top: 40%;
+    font-size: 45px;
+  }
+  .resv {
+    margin-left: -25%;
+    margin-top: 16%;
+  }
+  #para {
+    margin-left: -25%;
+    margin-top: 0%;
+  }
+  .containerTwo {
+    background-color: white;
+    top: 40%;
+    left: -10%;
+  }
+  #line {
+    margin-top: 50px;
+    margin-left: 400px;
+  }
+  #bottom-right {
+    margin-top: 65px;
+    margin-left: -416px;
+  }
+  .footer {
+    display: flex;
+    bottom: -250px;
+    width: 101%;
+    height: 150px; /* Height of the footer */
+    background: black;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
